@@ -12,7 +12,7 @@ nnoremap("<leader>qa", "<cmd>qa!<cr>")
 nnoremap("<leader>w", "<cmd>q<cr>")
 nnoremap("<C-s>", "<cmd>w<cr>")
 
-nmap("<leader>e", "<cmd>NvimTreeToggle<cr>")
+nmap("<leader>e", "<cmd>NvimTreeOpen<cr>")
 
 --Better window navigation with arrows
 nnoremap("<C-h>", "<c-w>h")
