@@ -1,0 +1,12 @@
+matches:
+  - trigger: ";ip"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "curl 'https://api.ipify.org'"
+  - trigger: ";log"
+    replace: "console.log($|$)"
+  - trigger: ";femcode"
+    replace: "internationalmonthly"

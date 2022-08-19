@@ -1,0 +1,11 @@
+matches:
+#Gripper account data
+  - trigger: ";grpphone"
+    replace: "786-417-4062"
+  - trigger: ";grpaddr1"
+    replace: "3970 NW 132nd St"
+  - trigger: ";grpaddr2"
+    replace: "UNIT D-36885"
+  - trigger: ";grpzip"
+    replace: "33504"
+# =====================

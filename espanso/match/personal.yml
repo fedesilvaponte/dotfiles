@@ -1,0 +1,15 @@
+# espanso match file
+matches:
+  - trigger: ";cel"
+    replace: "091447493"
+
+  - trigger: ";addr"
+    replace: "Pedro Margat 1624"
+
+  - trigger: ";rut"
+    replace: "217808580016"
+
+  - trigger: ";ci"
+    replace: "34100533"
+
+

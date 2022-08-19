@@ -1,0 +1,10 @@
+# espanso match file
+matches:
+  - trigger: ";mail"
+    replace: "federicosilva09@gmail.com"
+
+  - trigger: ";dbmail"
+    replace: "federico.silva@dualbootpartners.com"
+
+  - trigger: ";ymail"
+    replace: "fsponte@yahoo.com"
