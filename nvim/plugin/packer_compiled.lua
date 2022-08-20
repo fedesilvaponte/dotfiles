@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "/Users/fede/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["bclose.vim"] = {
-    loaded = true,
-    path = "/Users/fede/.local/share/nvim/site/pack/packer/start/bclose.vim",
-    url = "https://github.com/rbgrouleff/bclose.vim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/fede/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -178,11 +173,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/fede/.local/share/nvim/site/pack/packer/start/prettier.nvim",
     url = "https://github.com/MunifTanjim/prettier.nvim"
-  },
-  rnvimr = {
-    loaded = true,
-    path = "/Users/fede/.local/share/nvim/site/pack/packer/start/rnvimr",
-    url = "https://github.com/kevinhwang91/rnvimr"
   },
   ["telescope.nvim"] = {
     loaded = true,

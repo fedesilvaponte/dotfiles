@@ -56,6 +56,11 @@ local useFunction = function(use)
   use("hrsh7th/cmp-nvim-lsp")
   use("williamboman/nvim-lsp-installer")
 
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
+
   -- GIT
   use('lewis6991/gitsigns.nvim')
 end
