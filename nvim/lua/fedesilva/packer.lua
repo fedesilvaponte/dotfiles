@@ -50,6 +50,7 @@ local useFunction = function(use)
   use("saadparwaiz1/cmp_luasnip") -- snippet completions
 
   -- use{'kevinhwang91/rnvimr', requires = 'rbgrouleff/bclose.vim' } -- Ranger plugin
+  packer.use {'glepnir/dashboard-nvim'}
 
   --LSP
   use("neovim/nvim-lspconfig")
