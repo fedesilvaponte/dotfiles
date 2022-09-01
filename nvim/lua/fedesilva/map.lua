@@ -6,13 +6,16 @@ local vmap = require("fedesilva.keymap").vnoremap
 
 --nnoremap("<leader>pv", "<cmd>Ex<Cr>")
 -- nnoremap(";", ":")
+-- nnoremap("<C-;>", "<cmd>bnext<cr>")
+-- nnoremap("<A-,>", "<cmd>bprev<cr>")
+
 nnoremap("<space>", ":")
 nnoremap("<leader>so", "<cmd>so %<cr>")
 nnoremap("<leader>qa", "<cmd>qa!<cr>")
 nnoremap("<leader>w", "<cmd>q<cr>")
 nnoremap("<C-s>", "<cmd>w<cr>")
 
-nmap("<leader>e", "<cmd>NvimTreeOpen<cr>")
+nmap("<leader>e", "<cmd>NvimTreeFocus<cr>")
 
 --Better window navigation with arrows
 nnoremap("<C-h>", "<c-w>h")

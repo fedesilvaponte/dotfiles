@@ -32,8 +32,5 @@ vim.api.nvim_create_autocmd(
     { pattern = { "*.ts", "*.json", "*.tsx", "*.js", "*.jsx", "*.html" }, command = "Neoformat" }
 )
 
-
-
-
 --vim.opt.clipboard = 'unnamedplus'  -- system clipboard
 --

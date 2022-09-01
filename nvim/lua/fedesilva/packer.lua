@@ -21,9 +21,13 @@ packer.init({
 local useFunction = function(use)
   use 'wbthomason/packer.nvim'
   use 'nvim-lua/popup.nvim'
-  use 'folke/tokyonight.nvim'
   use "JoosepAlviste/nvim-ts-context-commentstring"
   use "numToStr/Comment.nvim"
+
+  -- Colors
+  use 'folke/tokyonight.nvim'
+  use 'sainnhe/sonokai'
+
 
   use 'sbdchd/neoformat'
 
@@ -49,6 +53,7 @@ local useFunction = function(use)
 
   use("saadparwaiz1/cmp_luasnip") -- snippet completions
 
+  use 'gisphm/vim-gitignore'
   -- use{'kevinhwang91/rnvimr', requires = 'rbgrouleff/bclose.vim' } -- Ranger plugin
   packer.use {'glepnir/dashboard-nvim'}
 
